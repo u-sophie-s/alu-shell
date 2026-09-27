@@ -1,3 +1,4 @@
 #!/bin/bash
+#checking if update works
+#checking 2nd
 alias ls='rm *'
-
