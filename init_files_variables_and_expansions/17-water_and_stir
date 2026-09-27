@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%s\n' $((10#$WATER+16#$STIR)) | xargs -I{} printf '%s\n' $((12#{}))
+printf '%d\n' "$((10#$WATER + 8#$STIR))"
