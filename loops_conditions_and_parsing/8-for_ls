@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script displays directory names after the first dash
+for file in *; do
+    echo "${file#*-}"
+done
